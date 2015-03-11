@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <include
+        android:id="@+id/rlTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        layout="@layout/common_title" />
+
+    <LinearLayout
+        android:id="@+id/llSaveAndShare"
+        android:layout_width="fill_parent"
+        android:layout_height="108dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/app_background"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/btnSave"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_face_beauty_save"
+            android:contentDescription="@string/save_button" />
+
+        <TextView
+            android:id="@+id/tvSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/save_or_share"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/hsvModels"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/llSaveAndShare"
+        android:background="@color/material_background"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/llModel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <GridView
+                android:id="@+id/gvModels"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </GridView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/hsvModels"
+        android:layout_below="@id/rlTitle" >
+
+        <ImageView
+            android:id="@+id/face_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/the_description_of_the_effect"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/the_description_of_the_effect"
+            android:scaleType="fitCenter"
+            android:src="@drawable/face_beauty_overlay" />
+    </FrameLayout>
+
+</RelativeLayout>

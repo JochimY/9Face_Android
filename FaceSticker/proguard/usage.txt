@@ -1,0 +1,77 @@
+com.netease.facebeauty.BroadcastReceiver.FaceBeautyMessageReceiver
+com.netease.facebeauty.BuildConfig
+com.netease.facebeauty.FaceBeautyApplication:
+    public static final java.lang.String APP_ID
+    public static final java.lang.String APP_KEY
+    public static final java.lang.String TAG
+com.netease.facebeauty.R
+com.netease.facebeauty.R$anim
+com.netease.facebeauty.R$array
+com.netease.facebeauty.R$attr
+com.netease.facebeauty.R$color
+com.netease.facebeauty.R$drawable
+com.netease.facebeauty.R$id
+com.netease.facebeauty.R$layout
+com.netease.facebeauty.R$string
+com.netease.facebeauty.bean.StickerParameters:
+    26:26:public int getIndex()
+    30:31:public void setIndex(int)
+    38:39:public void setBitmap(android.graphics.Bitmap)
+com.netease.facebeauty.common.Constants:
+    public static final int MAX_SIZE
+    public static final java.lang.String TAG
+    public static final boolean ANT_PACKAGE_FLAG
+    public static final java.lang.String RELEASE_SIGNATURE
+    public static final java.lang.String RELEASE_VERSION
+    public static final java.lang.String RELEASE_CHANNEL
+    23:23:public Constants()
+com.netease.facebeauty.copy.FaceBeautyApplication
+com.netease.facebeauty.copy.FaceBeautyApplication$1
+com.netease.facebeauty.ui.FaceBeautyActivity:
+    private static final java.lang.String TAG
+    private static final int CAMERA
+    private static final int GALLERY
+    public static final java.lang.String PASS_BITMAP
+com.netease.facebeauty.ui.MainActivity:
+    private static final int GALLARY
+    private static final int CAMERA
+com.netease.facebeauty.ui.SaveActivity:
+    private static final int WECHAT
+    private static final int WEIBO
+    private static final int YIXIN
+com.netease.facebeauty.utils.CommonUtils
+com.netease.facebeauty.utils.FileUtil:
+    7:7:public FileUtil()
+com.netease.facebeauty.utils.GifMaker
+com.netease.facebeauty.utils.ImageFileCache
+com.netease.facebeauty.utils.ImageFileCache$FileLastModifSort
+com.netease.facebeauty.utils.ImageMemoryCache
+com.netease.facebeauty.utils.ImageMemoryCache$1
+com.netease.facebeauty.utils.ImageMemoryCache$2
+com.netease.facebeauty.utils.ImageUtils:
+    34:34:public ImageUtils()
+    159:169:public static android.graphics.Bitmap convertViewToBitmap(android.view.View,int,int,int,int)
+com.netease.facebeauty.utils.JNIGenerator
+com.netease.facebeauty.utils.NativeFunction:
+    private static final java.lang.String TAG
+    37:48:public android.graphics.Bitmap GetWarpedImg(android.graphics.Bitmap,int[],int[],int)
+    53:64:public android.graphics.Bitmap GetFaceMask(android.graphics.Bitmap,android.graphics.Rect,float[],int)
+    89:102:public android.graphics.Bitmap GetExpression(java.lang.Long,android.graphics.Bitmap,android.graphics.Bitmap,int,int)
+    107:116:public android.graphics.Bitmap process(long,android.graphics.Bitmap,java.lang.String)
+    private native int[] getMask(int,int,int[],float[],int)
+    private native int[] expressionProcess(long,int,int,int[],int[],int,int)
+    private native int[] warpImg(int,int,int[],int[],int[],int)
+    public native int processImage(long,int[],int,int,java.lang.String)
+com.netease.facebeauty.utils.SaveBitmapListHandler
+com.netease.facebeauty.utils.SaveBitmapListRunnable
+com.netease.facebeauty.utils.StickerCommon
+com.netease.facebeauty.utils.UpdateService:
+    private static final int down_step_custom
+    private static final int TIMEOUT
+    private static final int DOWN_OK
+    private static final int DOWN_ERROR
+com.netease.facebeauty.utils.UriUtils:
+    27:27:public UriUtils()
+com.netease.facebeauty.view.StickerView:
+    51:52:public StickerView(android.content.Context,android.util.AttributeSet)
+com.netease.facebeauty.view.TemplateResultView

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        layout="@layout/common_title" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="130dp"
+        android:layout_height="138dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/about_logo" />
+
+    <TextView
+        android:id="@+id/llShare"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivLogo"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/about_Propaganda"
+        android:textColor="@color/about_text_color"
+        android:textSize="17sp" />
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@+id/llShare" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@id/ivLogo" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:layout_marginTop="45dp" -->
+    <!-- android:orientation="vertical" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center_horizontal" -->
+    <!-- android:text="@string/about_share" -->
+    <!-- android:textColor="@color/about_text_color" -->
+    <!-- android:textSize="17sp" /> -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="20dp" -->
+    <!-- android:gravity="center" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tvWeibo" -->
+    <!-- android:layout_width="56dp" -->
+    <!-- android:layout_height="56dp" -->
+    <!-- android:background="@drawable/about_weibo" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tvWeChat" -->
+    <!-- android:layout_width="56dp" -->
+    <!-- android:layout_height="56dp" -->
+    <!-- android:layout_marginLeft="20dp" -->
+    <!-- android:background="@drawable/about_wechat" -->
+    <!-- android:gravity="center" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tvYiXin" -->
+    <!-- android:layout_width="56dp" -->
+    <!-- android:layout_height="56dp" -->
+    <!-- android:layout_marginLeft="20dp" -->
+    <!-- android:background="@drawable/about_friends_circle" -->
+    <!-- android:gravity="center" /> -->
+    <!-- </LinearLayout> -->
+    <!-- </LinearLayout> -->
+
+    <TextView
+        android:id="@+id/tvComment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llShare"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="@string/about_comment"
+        android:textColor="@color/about_text_color"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tvQQGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvComment"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="@string/about_qq"
+        android:textColor="@color/about_text_color"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="@string/about_instruction"
+        android:textColor="@color/about_text_color2"
+        android:textSize="13sp" />
+
+</RelativeLayout>

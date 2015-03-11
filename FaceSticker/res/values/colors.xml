@@ -1,0 +1,18 @@
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink">#F964A0</color>
+    <color name="color_btn_text">#ff6e6e6e</color>
+    <color name="color_btn_text_outline">#ffffffff</color>
+    <!-- APP整体底色 -->
+    <color name="app_background">#DB5A5A</color>
+    <!-- 背景颜色 -->
+    <color name="background">#EEEEEE</color>
+    <!-- 素材模板的背景 -->
+    <color name="material_background">#C65050</color>
+    <color name="line_color">#CCCCCC</color>
+    <color name="about_text_color2">#db5a59</color>
+    <color name="about_text_color">#666666</color>
+
+</resources>

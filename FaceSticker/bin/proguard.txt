@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:23
+-keep class com.netease.facebeauty.FaceBeautyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.netease.facebeauty.ui.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.netease.facebeauty.ui.FaceBeautyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.netease.facebeauty.ui.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.netease.facebeauty.ui.SaveActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.netease.facebeauty.utils.UpdateService { <init>(...); }
+

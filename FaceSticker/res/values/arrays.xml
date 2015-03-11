@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="note_describtion">
+        <item>喝酸奶不舔盖</item>
+        <item>吃泡面不喝汤</item>
+        <item>益达三粒一起嚼</item>
+        <item>擦屁股不折纸</item>
+        <item>抽纸放在桌面最显眼位置</item>
+        <item>手机不贴膜</item>
+        <item>喝星巴克不自拍</item>
+        <item>去商场不上淘宝</item>
+        <item>长高五厘米</item>
+        <item>吃再多都不胖</item>
+        <item>穿名牌不被认为是高仿</item>
+        <item>朋友圈只收宝马广告</item>
+        <item>去超市买东西不看价格</item>
+        <item>开车只买交强险</item>
+        <item>每天睡到自然醒</item>
+        <item>说了晚安立马就去睡</item>
+        <item>洗发水沐浴露用完不加水</item>
+        <item>被喜欢的人告白</item>
+        <item>吃薯片不舔指头</item>
+        <item>吃雪糕不舔棍子</item>
+        <item>收到压岁钱不马上拆开</item>
+        <item>牙膏不从屁股挤</item>
+        <item>打的不用优惠券</item>
+        <item>吃饭不用代金券</item>
+        <item>买东西只买贵的不买对的</item>
+        <item>用手机流量直接看视频</item>
+        <item>马桶盖要带温水冲洗功能</item>
+        <item>无聊时就飞伦敦喂喂鸽子</item>
+        <item>心情好时就在群里发发红包</item>
+        <item>买切糕只吃葡萄</item>
+    </string-array>
+
+</resources>
